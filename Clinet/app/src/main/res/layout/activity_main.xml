@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aniru.federalmoneycliient.MainActivity">
+
+    <EditText
+        android:id="@+id/enter_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a year (2006-2016)" />
+
+    <EditText
+        android:id="@+id/enter_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a month (1-12)" />
+
+    <EditText
+        android:id="@+id/enter_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a day(1-30)" />
+
+    <EditText
+        android:id="@+id/enter_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number(5-25)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MonthlyCash" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DailyCash" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
